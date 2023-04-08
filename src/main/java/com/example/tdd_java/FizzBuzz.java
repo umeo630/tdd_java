@@ -1,4 +1,4 @@
-package com.example.fizz_buzz;
+package com.example.tdd_java;
 
 class FizzBuzz {
     static String execute(int i){
