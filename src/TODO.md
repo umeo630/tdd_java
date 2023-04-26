@@ -1,6 +1,6 @@
  - $5 + 10 CHF = $10 (レートが2:1の場合)
- - $5 + $5 = $10  
- - Moneyの丸め処理どうする？
- - hashCode()
- - nullとの等価性比較
- - 他のオブジェクトとの等価性比較
+ - $5 + $5 = $10
+ - $5 + $5がMoneyを返す  
+ - ~~Bank.reduce(Money)~~
+ - Moneyを変換して換算を行う
+ - Reduce(Bank, String)
