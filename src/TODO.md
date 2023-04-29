@@ -4,3 +4,5 @@
  - ~~Bank.reduce(Money)~~
  - ~~Moneyを変換して換算を行う~~
  - ~~Reduce(Bank, String)~~
+ - Sum.plus
+ - Expression.times
