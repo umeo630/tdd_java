@@ -2,7 +2,7 @@ package com.example.tdd_java.money;
 public class Money implements Expression {
     protected int amount;
     protected String currency;
-    Expression times(int multiplier) {
+    public Expression times(int multiplier) {
         return new Money(multiplier * amount, currency);
     }
 
