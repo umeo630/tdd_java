@@ -19,9 +19,7 @@ public class Cart {
     }
 
     public void displayCart() {
-        for(Item item : items) {
-            System.out.println("商品名: " + item.getName());
-            System.out.println("価格: " + item.getPrice());
-        }
+        CartItemInfo cartItemInfo = new CartItemInfo(this);
+        System.out.println(cartItemInfo.displayItemInfo());
     }
 }
